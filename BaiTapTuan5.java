@@ -42,7 +42,8 @@ class Sach {
         return String.format("%-15s | %-25s | %-10d | %-12.2f", maSach, tenSach, soLuong, giaTien);
     }
 }
-public class BaiTapTuan5 {
+public class BaiTapTuan5
+{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Sach> danhSachSach = new ArrayList<>();
